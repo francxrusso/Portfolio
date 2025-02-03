@@ -45,7 +45,7 @@
 /* Fonts Start */
 /* ------------------------------------------------*/
 /* Syne font */
-@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap');
 
 /* ------------------------------------------------*/
 /* Fonts End */
@@ -65,8 +65,8 @@
 /* ------------------------------------------------*/
 :root {
   --_size: 1.6rem;
-  --_font-default: "Syne", sans-serif;
-  --_font-accent: "Syne", sans-serif;
+  --_font-default: "Alef", sans-serif;
+  --_font-accent: "Alef", sans-serif;
   --_radius-s: 1.5rem;
   --_radius-m: 2.2rem;
   --_radius-l: 3rem;
@@ -79,8 +79,8 @@
   --base--light: #e6ebf4;
   --base-tint--light: #ebf0f7;
   --base-shade--light: #bdc1c8;
-  --accent--light: #aa70e0;
-  --secondary--light: #7059e2;
+  --accent--light: #0e7252;
+  --secondary--light: #005857;
   --secondary-rgba--light: rgba(112, 89, 226, 0.3);
   --stroke-controls--light: #a8b0c1;
   --stroke-controls-neutral--light: rgba(0, 0, 0, 0.3);
@@ -88,41 +88,41 @@
   --t-bright--light: #22232c;
   --t-medium--light: #424550;
   --t-muted--light: #666a79;
-  --t-accent--light: #8f56cc;
-  --t-secondary--light: #5d4ec4;
+  --t-accent--light: #005857;
+  --t-secondary--light: #005842;
   --t-disabled--light: #717586;
   --t-placeholder--light: #969bb2;
   --base-opp--light: #111111;
   --t-opp-bright--light: #ebf0f7;
   --t-opp-medium--light: #C7C6D3;
   --t-opp-muted--light: #A1A1AF;
-  --gradient-one--light: #CEC4EF;
-  --gradient-two--light: #f5c5cd;
-  --gradient-three--light: #ac8fe3;
+  --gradient-one--light: #08ce8f;
+  --gradient-two--light: #6f91a0;
+  --gradient-three--light: #005857;
   /* dark color scheme */
   --base--dark: #111111;
   --base-tint--dark: #161616;
   --base-shade--dark: #000000;
-  --accent--dark: #E4B8BF;
-  --secondary--dark: #CEC4EF;
+  --accent--dark: #42d9a9;
+  --secondary--dark: #08523f;
   --secondary-rgba--dark: rgba(206, 196, 239, 0.2);
   --stroke-controls--dark: #4B4B51;
   --stroke-controls-neutral--dark: rgba(255, 255, 255, 0.3);
   --stroke-elements--dark: #303033;
-  --t-bright--dark: #e9e9f1;
+  --t-bright--dark: #42d9a9;
   --t-medium--dark: #C7C6D3;
-  --t-muted--dark: #A1A1AF;
-  --t-accent--dark: #E1BAC5;
-  --t-secondary--dark: #CEC4EF;
+  --t-muted--dark: #42d9a9;
+  --t-accent--dark: #42d9a9;
+  --t-secondary--dark: #42d9a9;
   --t-disabled--dark: #8B8A91;
   --t-placeholder--dark: #58585E;
   --base-opp--dark: #fafafa;
   --t-opp-bright--dark: #121319;
   --t-opp-medium--dark: #626577;
   --t-opp-muted--dark: #717586;
-  --gradient-one--dark: #a287d5;
-  --gradient-two--dark: #E4B8BF;
-  --gradient-three--dark: #8b6bc5;
+  --gradient-one--light: #08ce8f;
+  --gradient-two--light: #6f91a0;
+  --gradient-three--light: #005857;
   /* permanent colors */
   --per-base: #111111;
   --per-base-tint: #212121;
