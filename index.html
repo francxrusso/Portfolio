@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-  <head>
+<html lang="en">
+<head>
+    
+    <!-- Viewport Meta-->
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Page Title -->
+    <!-- Site Title -->
     <title>Portfolio | Francesca Russo</title>
 
     <!-- Meta Tags -->
@@ -12,44 +14,42 @@
     <meta name="keywords" content="francxrusso_design, portfolio, design, web design">
     <meta name="author" content="francxrusso_design">
 
-    <!-- Viewport Meta-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Portfolio Francesca Russo" />
+    <link rel="manifest" href="assets/favicons/site.webmanifest" />
+    <!-- End Favicons -->
 
-    <!-- Template Favicon & Icons Start -->
-  <link rel="icon" href="favicons/favicon.ico" sizes="any" />
-<link rel="icon" href="favicons/icon.svg" type="image/svg+xml" />
-<link rel="apple-touch-icon" href="favicons/apple-touch-icon.png" />
-<link rel="manifest" href="favicons/manifest.webmanifest" />
-    <!-- Template Favicon & Icons End -->
+     <!-- Styles -->
+     <link rel="stylesheet" href="assets/css/style.css">
+     <link rel="stylesheet" href="assets/css/loaders/loader.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
+     <!-- End Styles -->
 
-    <!-- Template Styles Start -->
-    <link rel="stylesheet" href="css/loaders/loader.css">
-    <link rel="stylesheet" type="text/css" href="css/plugins.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <!-- Template Styles End -->
-
-    <!-- Custom Browser Color Start -->
+     <!-- Custom Browser Color Start -->
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#dcdce7">
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111111">
     <meta name="msapplication-navbutton-color" content="#111111">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <!-- Custom Browser Color End -->
-  </head>
 
-  <body>
+</head>
 
-    <!-- Loader Start -->
+<body>
+    <!-- Loader -->
     <div id="loader" class="loader">
       <div id="loaderContent" class="loader__content">
         <div class="loader__shadow"></div>
         <div class="loader__box"></div>
       </div>
     </div>
-    <!-- Loader End -->
+    <!-- End Loader -->
 
-    <!-- Header Start -->
+      <!-- Header Start -->
     <header id="header" class="header d-flex justify-content-between">
 
       <!-- Navigation Menu Start -->
@@ -904,7 +904,7 @@
     </div>
 
     <!-- Load Scripts Start -->
-    <script src="js/libs.min.js"></script>
+    <script src="assets/js/libs.min.js"></script>
     <script>
       const randomX = random(-400, 400);
       const randomY = random(-200, 200);
@@ -958,10 +958,9 @@
         return (direction = 1) => (min + delta * Math.random()) * direction;
       }
     </script>
-    <script src="js/app.js"></script>
-    <script src="js/gallery-init.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/gallery-init.js"></script>
     <!-- Load Scripts End -->
     
-  </body>
-
+</body>
 </html>
