@@ -120,9 +120,9 @@
   --t-opp-bright--dark: #121319;
   --t-opp-medium--dark: #626577;
   --t-opp-muted--dark: #717586;
-  --gradient-one--light: #08ce8f;
-  --gradient-two--light: #6f91a0;
-  --gradient-three--light: #005857;
+  --gradient-one--dark: #08ce8f;
+  --gradient-two--dark: #6f91a0;
+  --gradient-three--dark: #005857;
   /* permanent colors */
   --per-base: #111111;
   --per-base-tint: #212121;
