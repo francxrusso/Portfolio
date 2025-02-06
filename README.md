@@ -7,4 +7,4 @@ My name is Francesca Russo and'm currently working as a Graphic and Web Designer
 <h2>Contact</h2>
 Francesca Russo - franrussodesign@gmail.com
 
-Project Link: https://francxrusso.github.io
+Project Link: https://francxrusso.github.io/portfolio
